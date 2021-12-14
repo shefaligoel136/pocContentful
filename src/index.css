@@ -1,0 +1,45 @@
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.apiNameContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.nameContainer {
+  display: flex;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 15px;
+  margin-right: 20px;
+  background-image: url("https://i.pinimg.com/originals/aa/46/93/aa4693c1130c17f0b729fd2f434f06f1.jpg");
+  transition: 0.2s;
+}
+
+.nameContainer:hover {
+  box-shadow: 0 0 5px black;
+  transform: scale(1.03);
+}
+
+.nameContainer--text {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+.nameContainer--text:focus {
+  outline: none;
+}
+
+button{
+  margin-top: 15px;
+}
